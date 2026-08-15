@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --font-arabic: 'Cairo', system-ui, -apple-system, sans-serif;
+  --font-arabic: 'Almarai', system-ui, -apple-system, sans-serif;
   
   /* Default Light Theme */
   --bg-dark: #f8fafc;

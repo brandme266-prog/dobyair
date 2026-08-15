@@ -116,7 +116,7 @@ export default function Hero({ onOpenBooking }) {
 
         .hero-grid {
           display: grid;
-          grid-template-columns: 1.1fr 0.9fr;
+          grid-template-columns: 1.3fr 1fr;
           gap: 4rem;
           align-items: center;
         }
