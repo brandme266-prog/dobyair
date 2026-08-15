@@ -127,6 +127,10 @@ export default function Hero({ onOpenBooking }) {
         }
 
         @media (max-width: 992px) {
+          .hero-section {
+            padding-top: 8rem;
+            padding-bottom: 4rem;
+          }
           .hero-grid {
             grid-template-columns: 1fr;
             gap: 3rem;

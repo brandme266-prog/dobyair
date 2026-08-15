@@ -106,10 +106,10 @@ export default function BookingModal({ isOpen, onClose }) {
           width: 100%;
           max-width: 520px;
           padding: 2.25rem;
-          background: #0d1527;
-          border: 1px solid var(--border-active);
+          background: var(--bg-dark);
+          border: 1px solid var(--border);
           border-radius: var(--radius-xl);
-          box-shadow: 0 25px 50px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
           max-height: 90vh;
           overflow-y: auto;
         }
@@ -118,8 +118,8 @@ export default function BookingModal({ isOpen, onClose }) {
           position: absolute;
           top: 1.25rem;
           left: 1.25rem;
-          background: rgba(255, 255, 255, 0.08);
-          border: none;
+          background: var(--bg-surface);
+          border: 1px solid var(--border);
           color: var(--text-muted);
           width: 34px;
           height: 34px;
@@ -131,8 +131,8 @@ export default function BookingModal({ isOpen, onClose }) {
         }
 
         .close-btn:hover {
-          background: rgba(255, 255, 255, 0.2);
-          color: #fff;
+          background: #e2e8f0;
+          color: var(--text-light);
         }
 
         .modal-header {
@@ -144,10 +144,10 @@ export default function BookingModal({ isOpen, onClose }) {
           align-items: center;
           gap: 0.4rem;
           padding: 0.3rem 0.8rem;
-          background: rgba(37, 211, 102, 0.15);
+          background: rgba(37, 211, 102, 0.1);
           border: 1px solid rgba(37, 211, 102, 0.3);
           border-radius: 999px;
-          color: #25d366;
+          color: #16a34a;
           font-size: 0.775rem;
           font-weight: 700;
           margin-bottom: 0.75rem;

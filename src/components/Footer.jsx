@@ -75,7 +75,7 @@ export default function Footer({ onOpenBooking }) {
 
       <style>{`
         .footer-section {
-          background: #04070e;
+          background: var(--bg-surface);
           border-top: 1px solid var(--border);
           padding-top: 4rem;
           padding-bottom: 2rem;

@@ -183,12 +183,14 @@ export default function Navbar({ onOpenBooking, theme, onToggleTheme }) {
           align-items: center;
           justify-content: space-between;
           gap: 0.5rem;
+          min-width: 0;
         }
 
         .announcement-left {
           display: flex;
           align-items: center;
           gap: 0.4rem;
+          min-width: 0;
         }
 
         .live-discount-tag {
