@@ -24,7 +24,7 @@ export default function BlogIndex() {
             <BookOpen size={16} />
             <span>المدونة والنصائح</span>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 tracking-tight leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 tracking-tight leading-tight">
             نصائح وحلول <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">لصيانة أجهزتك</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">

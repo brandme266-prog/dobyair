@@ -51,7 +51,7 @@ export default function BlogPost() {
               <ArrowRight size={16} /> العودة للمدونة
             </Link>
             
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-6 leading-tight drop-shadow-lg">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg">
               {post.title}
             </h1>
             

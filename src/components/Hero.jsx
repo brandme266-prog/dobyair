@@ -18,7 +18,7 @@ export default function Hero({ onOpenBooking }) {
             <span>متخصصون في دبي • خصم 30% لطلبات غسيل المكيفات اليوم</span>
           </div>
 
-          <h1 className="hero-main-title text-3xl md:text-4xl lg:text-5xl font-black text-white mb-6 leading-tight drop-shadow-lg">
+          <h1 className="hero-main-title text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg">
             انتعش بهواء نقي مع أفضل خدمة <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">غسيل مكيفات</span> في دبي
           </h1>
 

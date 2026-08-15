@@ -12,7 +12,7 @@ export default function Services({ onOpenBooking }) {
             <Sparkles size={16} />
             <span>خدماتنا المتخصصة بمدينة دبي</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-6">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">
             نقدم أفضل خيارات <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">التنظيف والصيانة الاحترافية</span>
           </h2>
           <p className="text-slate-600 max-w-2xl text-lg">
@@ -69,7 +69,7 @@ export default function Services({ onOpenBooking }) {
               <div className="flex items-center justify-between pt-6 border-t border-slate-100 mt-auto">
                 <div>
                   <span className="block text-xs text-slate-500 font-medium mb-1">تبدأ الأسعار من</span>
-                  <span className="text-2xl font-black text-blue-600">90 د.إ</span>
+                  <span className="text-2xl font-extrabold text-blue-600">90 د.إ</span>
                 </div>
                 <button 
                   className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-6 py-3 rounded-full font-bold hover:shadow-lg hover:shadow-blue-500/30 transition-all duration-300"
@@ -123,7 +123,7 @@ export default function Services({ onOpenBooking }) {
               <div className="flex items-center justify-between pt-6 border-t border-slate-100 mt-auto">
                 <div>
                   <span className="block text-xs text-slate-500 font-medium mb-1">تبدأ الأسعار من</span>
-                  <span className="text-2xl font-black text-yellow-600">150 د.إ</span>
+                  <span className="text-2xl font-extrabold text-yellow-600">150 د.إ</span>
                 </div>
                 <button 
                   className="flex items-center gap-2 bg-white border-2 border-yellow-500 text-yellow-600 px-6 py-2.5 rounded-full font-bold hover:bg-yellow-50 transition-colors duration-300"
