@@ -2,7 +2,12 @@ import React from 'react';
 import { useOutletContext, Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import SEO from '../components/SEO';
-import { ArrowLeft } from 'lucide-react';
+import Services from '../components/Services';
+import WhyUs from '../components/WhyUs';
+import BeforeAfter from '../components/BeforeAfter';
+import Testimonials from '../components/Testimonials';
+import FAQ from '../components/FAQ';
+import BlogSection from '../components/BlogSection';
 
 export default function Home() {
   const { onOpenBooking } = useOutletContext();
@@ -17,25 +22,25 @@ export default function Home() {
       <Hero onOpenBooking={onOpenBooking} />
       
       {/* Quick Navigation Snippets */}
-      <section className="py-16 bg-white">
+      <section className="py-8 bg-slate-50 border-b border-slate-200">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">استكشف خدماتنا الشاملة</h2>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/services" className="btn btn-outline border-primary text-primary hover:bg-primary hover:text-white">
-              عرض جميع الخدمات
-            </Link>
             <Link to="/calculator" className="btn btn-outline border-slate-300 text-slate-700 hover:bg-slate-100">
-              حاسبة الأسعار
+              حاسبة الأسعار الشاملة
             </Link>
             <Link to="/districts" className="btn btn-outline border-slate-300 text-slate-700 hover:bg-slate-100">
               مناطق الخدمة بدبي
             </Link>
-            <Link to="/blog" className="btn btn-outline border-slate-300 text-slate-700 hover:bg-slate-100">
-              نصائح ومقالات
-            </Link>
           </div>
         </div>
       </section>
+
+      <Services onOpenBooking={onOpenBooking} />
+      <WhyUs />
+      <BeforeAfter />
+      <Testimonials />
+      <FAQ />
+      <BlogSection />
     </>
   );
 }
