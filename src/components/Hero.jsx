@@ -80,28 +80,8 @@ export default function Hero({ onOpenBooking }) {
               onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2070&auto=format&fit=crop"; }}
             />
             
-            {/* Floating Elements */}
+            {/* Floating Element (Glow only) */}
             <div className="absolute -top-6 -right-6 bg-gradient-to-br from-cyan-400 to-blue-500 w-24 h-24 rounded-full blur-2xl opacity-50 animate-pulse"></div>
-            
-            <div className="absolute top-10 -right-8 bg-slate-900/80 backdrop-blur-md border border-cyan-500/30 p-4 rounded-2xl shadow-xl flex items-center gap-4 animate-[float_4s_ease-in-out_infinite]">
-              <div className="w-12 h-12 rounded-full bg-cyan-500/20 flex items-center justify-center">
-                <Snowflake size={24} className="text-cyan-400" />
-              </div>
-              <div>
-                <strong className="block text-white font-bold">تبريد مثالي</strong>
-                <span className="text-cyan-200 text-sm">كفاءة أعلى بـ 40%</span>
-              </div>
-            </div>
-
-            <div className="absolute bottom-10 -left-8 bg-slate-900/80 backdrop-blur-md border border-blue-500/30 p-4 rounded-2xl shadow-xl flex items-center gap-4 animate-[float_5s_ease-in-out_infinite_reverse]">
-              <div className="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
-                <Clock size={24} className="text-blue-400" />
-              </div>
-              <div>
-                <strong className="block text-white font-bold">سرعة التنفيذ</strong>
-                <span className="text-blue-200 text-sm">نصلك خلال 45 دقيقة</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
